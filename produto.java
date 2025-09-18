@@ -14,11 +14,12 @@ public class produto{
     }
     public void alterarQuantidade(int qtd){
         
-        this.quantidade = qtd;
+        this.quantidade += qtd;
         if(qtd < 0){
             System.out.println("Quantidade inválida. A quantidade não pode ser negativa.");
             this.quantidade = 0;
         }
 
     }
+
 }
