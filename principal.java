@@ -11,7 +11,7 @@ public class principal {
         p1.quantidade = T.nextInt();
         p1.exibirDados();
         System.out.println("Valor total em estoque: " + p1.calcularValorTotal());
-        System.out.println("Digite a nova quantidade em estoque:");
+        System.out.println("Digite a quantidade que deseja alterar:(positiva para adicionar, negativa para remover)");
         int x = T.nextInt();
         p1.alterarQuantidade(x);
         p1.exibirDados();
@@ -22,3 +22,4 @@ public class principal {
 
     
 }
+
